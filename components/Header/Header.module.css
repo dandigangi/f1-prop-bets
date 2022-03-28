@@ -1,0 +1,52 @@
+.header {
+    background-color: #161616;
+    display: flex;
+    padding: 25px 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.brand,
+.nav {
+    flex: 1;
+}
+
+.brand {
+    max-width: 170px;
+    margin-right: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 7px;
+    font-size: 1.125rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+
+.nav a:last-child {
+    margin-right: 0;
+}
+
+.seasonStandings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seasonStandings:after {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px 3px;
+    margin-left: 9px;
+    content: '2022';
+    color: #ffffff;
+    background-color: #e10600;
+    font-size: 0.75rem;
+}
